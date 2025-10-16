@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pid
+
+# VS Code / JetBrains IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.tox/
+.mypy_cache/
+.pytest_cache/
+
+# Compiled translations
+*.mo
+
+# Backup files
+*.bak
+*.swp
