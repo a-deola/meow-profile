@@ -44,3 +44,7 @@ htmlcov/
 # Backup files
 *.bak
 *.swp
+
+#aws key
+meow-key.pem
+
