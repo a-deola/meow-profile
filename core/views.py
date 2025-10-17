@@ -10,7 +10,7 @@ from datetime import datetime
 @csrf_exempt
 @ratelimit(key='ip', rate='5/m', block=False)
 def profile_data(request):
-    # Check if rate limit exceeded
+
     if getattr(request, 'limited', False):
         return JsonResponse({
             "status": "error",
